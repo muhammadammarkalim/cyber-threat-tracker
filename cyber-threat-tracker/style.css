@@ -1,0 +1,185 @@
+/* General App Styles */
+body {
+  background: #10141a;
+  color: #e0e6ed;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.ctt-navbar {
+  background: #181f2a !important;
+  border-bottom: 2px solid #00ffe7;
+  box-shadow: 0 2px 12px #00ffe733;
+  margin-bottom: 2rem;
+}
+.ctt-navbar .navbar-brand {
+  color: #00ffe7 !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+.ctt-navbar .nav-link {
+  color: #e0e6ed !important;
+  font-weight: 500;
+  margin-left: 1.5rem;
+  transition: color 0.2s;
+}
+.ctt-navbar .nav-link.active, .ctt-navbar .nav-link:hover {
+  color: #00ffe7 !important;
+}
+
+/* Dashboard Page */
+.dashboard-cards .card {
+  min-width: 220px;
+  margin-bottom: 1.5rem;
+}
+
+/* Table tweaks */
+.ctt-table th, .ctt-table td {
+  vertical-align: middle;
+}
+
+/* Alerts */
+.ctt-alert {
+  margin-bottom: 1.5em;
+}
+
+/* Page-specific overrides (example) */
+.ctt-user-dashboard .dashboard-cards {
+  margin-bottom: 2rem;
+}
+
+/* Container */
+.cyber-container {
+  max-width: 950px;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  background: #181f2a;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px #00ffe71a;
+}
+
+/* Cards */
+.cyber-card {
+  background: #232b39;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #00ffe71a;
+  color: #e0e6ed;
+  border: 1px solid #232b39;
+}
+.cyber-card .card-title {
+  color: #00ffe7;
+  font-weight: 600;
+}
+
+/* Tables */
+.cyber-table {
+  background: #181f2a;
+  color: #e0e6ed;
+}
+.cyber-table th {
+  background: #232b39;
+  color: #00ffe7;
+  border-bottom: 2px solid #00ffe7;
+}
+.cyber-table td {
+  border-bottom: 1px solid #232b39;
+}
+.cyber-table tr:hover {
+  background: #232b39;
+}
+
+/* Buttons */
+.cyber-btn, .btn-primary {
+  background: linear-gradient(90deg, #00ffe7 0%, #00bfae 100%);
+  color: #10141a !important;
+  border: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.cyber-btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #00bfae 0%, #00ffe7 100%);
+  color: #10141a !important;
+}
+.btn-secondary, .cyber-btn-secondary {
+  background: #232b39;
+  color: #00ffe7 !important;
+  border: 1px solid #00ffe7;
+}
+.btn-secondary:hover, .cyber-btn-secondary:hover {
+  background: #00ffe7;
+  color: #232b39 !important;
+}
+
+/* Alerts */
+.cyber-alert-success {
+  background: #00332e;
+  color: #00ffe7;
+  border-left: 4px solid #00ffe7;
+  padding: 1em;
+  border-radius: 6px;
+  margin-bottom: 1.5em;
+}
+.cyber-alert-error {
+  background: #2a1818;
+  color: #ff4c4c;
+  border-left: 4px solid #ff4c4c;
+  padding: 1em;
+  border-radius: 6px;
+  margin-bottom: 1.5em;
+}
+
+/* Forms */
+input, select, textarea {
+  background: #232b39 !important;
+  color: #e0e6ed !important;
+  border: 1px solid #00ffe7 !important;
+  border-radius: 6px !important;
+}
+input:focus, select:focus, textarea:focus {
+  border-color: #00bfae !important;
+  outline: none !important;
+  box-shadow: 0 0 0 2px #00ffe733 !important;
+}
+label {
+  color: #00ffe7;
+  font-weight: 500;
+  margin-bottom: 0.3em;
+}
+::-webkit-input-placeholder { color: #00ffe7 !important; opacity: 1; }
+::-moz-placeholder { color: #00ffe7 !important; opacity: 1; }
+:-ms-input-placeholder { color: #00ffe7 !important; opacity: 1; }
+::placeholder { color: #00ffe7 !important; opacity: 1; }
+
+/* Welcome message */
+.cyber-welcome {
+  color: #7deeea;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+/* Web name styling */
+.cyber-webname {
+  color: #00fff7;
+  text-shadow: 0 0 8px #00fff7, 0 0 2px #000;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+/* Responsive tweaks */
+@media (max-width: 900px) {
+  .dashboard-cards {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .cyber-container { padding: 1em; }
+}
