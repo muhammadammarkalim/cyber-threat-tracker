@@ -70,9 +70,9 @@ To deploy and inspect this project locally, a standardized server stack is requi
 
 ## 📸 Interface Showcases
 <p align="center">
-  Main Dashboard
-  <img src="Screenshorts/Main_Dashboard.png" width="45%" alt="Main Dashboard" /> </br>
-  Admin Dashboard
+
+  <img src="Screenshorts/Main_Dashboard.png" width="45%" alt="Main Dashboard" /> </br> </br>
+
   <img src="Screenshorts/admin_Dashborad.png" width="45%" alt="Admin Dashboard" />
 </p>
 
