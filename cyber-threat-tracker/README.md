@@ -71,7 +71,7 @@ To deploy and inspect this project locally, a standardized server stack is requi
 ## 📸 Interface Showcases
 <p align="center">
   <img src="Screenshorts/Main_Dashboard.png" width="45%" alt="Security Dashboard" />
-  <img src="Screenshorts/admin_Dashboard.png" width="45%" alt="Secure Intake Form" />
+  <img src="Screenshorts/admin_Dashborad.png.png" width="45%" alt="Secure Intake Form" />
 </p>
 
 ---
